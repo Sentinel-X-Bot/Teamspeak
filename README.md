@@ -10,7 +10,7 @@ To run this integration, you will need to modifiy the config.json to contain the
 #### Core Intergration Config
 `api_key` - you can get this from the [#teamspeak-api-keys](https://discord.com/channels/1090639048776876223/1223429801436774486) in our discord found [HERE](https://discord.sentinelx.org)
 
-`discord_webhook_url` - you can create this in any channel where you have the correct permissions, this is where all alerts are sent like when a flagged user joins
+`discord_webhook_url` - you can create this in any channel where you have the correct permissions, this is where all alerts are sent like when a flagged user joins ([guide](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks))
 
 `warn_reputation` - Limit before a warning gets sent using the discord webhook 
 
