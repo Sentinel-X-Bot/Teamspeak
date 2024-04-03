@@ -13,4 +13,4 @@ jobs:
         - name: Send HTTP Request
           id: http_request
           run: |
-            curl -X POST "https://api.sentinelx.org/api/v1/github/embed/?description=You%20can%20find%20the%20update%20[HERE](https://github.com/Sentinel-X-Bot/Teamspeak/releases)"
+            curl "https://api.sentinelx.org/api/v1/github/embed/?description=You%20can%20find%20the%20update%20[HERE](https://github.com/Sentinel-X-Bot/Teamspeak/releases)"
