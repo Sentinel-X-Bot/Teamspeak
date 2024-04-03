@@ -13,4 +13,4 @@ jobs:
         - name: Send HTTP Request
           id: http_request
           run: |
-            curl -X POST "https://api.sentinelx.org/api/v1/github/embed/?webhook=https://discord.com/api/webhooks/1225034901062025308/HpiFSIDAuGC9XiApXa8dgWxucsxV-hnkkfB5sKwVbylhe9kdJm6fU_Z1-aY0Nq5kNKpn&description=You%20can%20find%20the%20update%20[HERE](https://github.com/Sentinel-X-Bot/Teamspeak/releases)"
+            curl -X POST "https://api.sentinelx.org/api/v1/github/embed/?description=You%20can%20find%20the%20update%20[HERE](https://github.com/Sentinel-X-Bot/Teamspeak/releases)"
