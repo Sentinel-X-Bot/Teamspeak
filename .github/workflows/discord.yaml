@@ -17,4 +17,4 @@ jobs:
           DISCORD_EMBEDS: '[{ "author": { "name": "${{github.event.pusher.full_name}}", "icon_url": "${{github.event.pusher.avatar_url}}" }, "description": "${{github.event.repository.name}}: Build ${{github.run_number}} has 123","timestamp": "${{ steps.current-time.outputs.time }}","footer":{"text": " "}}]'
         uses: Ilshidur/action-discord@master
         with:
-          args: 'The project ${{ github.repository }} has been deployed.'
+          args: ''
