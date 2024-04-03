@@ -9,7 +9,7 @@ jobs:
   discord_notification:
     runs-on: ubuntu-latest
     steps:
-      - name: Discord notification
+      - name: Discord notify
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
