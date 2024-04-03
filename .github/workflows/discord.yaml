@@ -18,8 +18,9 @@ jobs:
             [
               {
                 "author": {"name": "Teamspeak Integration Update", "icon_url": "https://sentinelx.org/assets/img/branding/sentinel.png", "url": "SET-THIS-TO-RELEASE-URL"},
+                "title": "Teamspeak Integration Update",
                 "description": "CHANGE-LOG-HERE",
-                "color": "2829617"
+                "color": 2829617
               }
             ]
         uses: Ilshidur/action-discord@master
