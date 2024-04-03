@@ -17,4 +17,4 @@ jobs:
           #DISCORD_EMBEDS: '[{"author": {"name": "Teamspeak Intergration Update","icon_url": "https://sentinelx.org/assets/img/branding/sentinel.png","url": "SET-THIS-TO-RELEASE-URL"},"description": "CHANGE-LOG-HERE","color": "2829617z"}]'
         uses: Ilshidur/action-discord@master
         with:
-          args: ''
+          args: 'Test'
