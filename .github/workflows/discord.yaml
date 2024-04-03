@@ -14,7 +14,7 @@ jobs:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           DISCORD_USERNAME: 'Sentinel X - Teamspeak releases'
           DISCORD_AVATAR: 'https://sentinelx.org/assets/img/branding/sentinel.png'
-          DISCORD_EMBEDS: '{"author":{"name": "Teamspeak Integration Update","icon_url": "https://sentinelx.org/assets/img/branding/sentinel.png","url": "SET-THIS-TO-RELEASE-URL"},"description": "CHANGE-LOG-HERE","color": "#00b0f4","footer": {"text": "123","icon_url": "https://sentinelx.org/assets/img/branding/sentinel.png"},"timestamp": 1712152227190}'
+          DISCORD_EMBEDS: '{"author":{"name": "Teamspeak Integration Update","icon_url": "https://sentinelx.org/assets/img/branding/sentinel.png","url": "SET-THIS-TO-RELEASE-URL"},"description": "CHANGE-LOG-HERE","color": 4887954,"footer": {"text": "123","icon_url": "https://sentinelx.org/assets/img/branding/sentinel.png"},"timestamp": 1712152227190}'
         uses: Ilshidur/action-discord@master
         with:
           args: 'The project ${{ github.repository }} has been deployed.'
