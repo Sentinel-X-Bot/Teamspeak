@@ -14,4 +14,3 @@ jobs:
           id: http_request
           run: |
             curl "https://api.sentinelx.org/api/v1/github/embed/?key=${{env.secure_key}}"
-#
