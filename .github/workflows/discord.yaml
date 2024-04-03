@@ -11,6 +11,4 @@ jobs:
     steps:
       - name: Print push description
         run: |
-          COMMIT_MESSAGE=$(git log -1 --pretty=%B)
-          DESCRIPTION=$(echo "$COMMIT_MESSAGE" | sed '1d')
-          echo "Push description: $DESCRIPTION"
+          echo "Update name: ${{ github.event.head_commit.message }}"
