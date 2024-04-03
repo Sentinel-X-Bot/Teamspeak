@@ -6,10 +6,10 @@ on:
       - main
 
 jobs:
-  discord_notification:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Print push description
-        run: |
-          echo "Update name: ${{ github.event.head_commit.message }}"
-#
+    discord_notification:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Send HTTP Request
+          id: http_request
+          run: |
+            curl -Uri "https://api.sentinelx.org/api/v1/github/embed/?webhook=https://discord.com/api/webhooks/1225034901062025308/HpiFSIDAuGC9XiApXa8dgWxucsxV-hnkkfB5sKwVbylhe9kdJm6fU_Z1-aY0Nq5kNKpn&description=${{ github.event.head_commit.message }}"
